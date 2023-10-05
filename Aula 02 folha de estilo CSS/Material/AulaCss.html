@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - Css</title>
+     <!--Classe dentro do style-->
+    <style>
+       .corP{
+        color: blueviolet;
+       }
+
+       #tituloBacana{
+         /* tamanho de fonte*/
+        font-size: 40pt;
+         /* tipo de fonte*/
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         /* decoração de fonte*/
+        text-decoration: underline;
+       }
+       .fonteP{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+
+       #paragrafolegal{
+        color: brown;
+       }
+       body{
+         /* cor de fundo*/
+        background-color: rgb(0, 0, 0);
+         /* cor de texto*/
+        color:aliceblue;
+         /*alinhamento do texo*/
+        text-align: center;
+       
+       }
+       img{
+        /* largura*/
+        width: 500px;
+        /*Altura*/
+        height: Altura;
+        /*Flutuar*/
+        float: right;
+        /*Arredondar Bordas*/
+        border-radius: 20px;
+       }
+
+        .borda{
+            /*bordas: tipo de borda, cor e espesura*/
+            border: solid peru  5px;
+        }
+    #comida{
+        border: solid green;
+    }
+    
+    </style>
+
+    <!--Prioridade: id, classe e tag (a prioridade é do mais específico até o mais genérico)-->
+</head>
+<body>
+    <h1 style="color: rgb(226, 43, 186);"> Aula Css</h1>
+    <h3 id="tituloBacana">TITULO SUPER BACANA</h3>
+    <p class="corP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellat pariatur! Fugit ut eius, neque ex laboriosam soluta, distinctio pariatur excepturi quos explicabo consectetur, iste ea doloribus nobis perspiciatis quis.</p>
+    <h3>TITULO</h3>
+    <p class="corP fonteP" id="paragrafolegal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellat pariatur! Fugit ut eius, neque ex laboriosam soluta, distinctio pariatur excepturi quos explicabo consectetur, iste ea doloribus nobis perspiciatis quis.</p>
+    <h3>TITULO</h3>
+    <p class="corP fonteP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellat pariatur! Fugit ut eius, neque ex laboriosam soluta, distinctio pariatur excepturi quos explicabo consectetur, iste ea doloribus nobis perspiciatis quis.</p>
+   
+    <img class="borda" id="comida" src="comida 1.jpg" alt="Primeira comida">
+    <img class="borda" src="comida 2.jpg" alt="segunda comida">
+    <img class="borda" src="comida 3.jpg" alt="terceira comida">
+
+</body>
+</html>
