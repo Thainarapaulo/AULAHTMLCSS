@@ -11,6 +11,7 @@
 <body>
     <div id="pagina">
         <header>
+            <main>
             <h1>BlogCafé
           <div id="logo">
               <img src="../images/logo.jpg" alt="">
@@ -22,7 +23,21 @@
               <a href="contato.html">Contato</a>
               <a href="sobremim.html">Sobre mim</a>
           </nav>
+        </main>
         </header>
     </div>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome:</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+            <label>E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail">
+            <label>Mensagens:</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button> 
+        </form>
+    </section>
+    <footer></footer>
 </body>
 </html>
