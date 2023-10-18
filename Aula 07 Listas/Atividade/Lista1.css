@@ -1,17 +1,93 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-
+:root{
+    --verde:#f9f9ef;
+    --preto:#282724;
+    --cinzaclaro:#a1a297;
+    --verdeescuro:#7f8070;
+    --cinzaescuro:#7c7474;
+}
+body{
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background-color: var(--verde);
+    width: 32%;
+}
+main{
+    display: block;
+    width: 32%;
+}
 h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    padding: 5px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--preto);
     text-align: center;
+    background-color: var(--verde)
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--preto);
+    padding: 5px; 
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--verdeescuro);
+    text-align: center;
+    padding: 5px;
+}
+h3{
+    text-align: center;
+    padding: 5px;
 }
 ol{
-    background-color: aquamarine;
-  
+    background-color:var(--verde);
+
+}
+dt{
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 20px;
 }
 dd{
-    color: rgb(206, 245, 232);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:var(--verdeescuro);
+    padding: 5px;
+}
+
+footer{
+    padding: 10px;
+    float: inline-start;
+    width: 32%;
+    margin: 0;
+    background-color: var(--verde);
+    color: var(--verdeescuro);
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    display: block;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+aside{
+    background-color: var(--verde);
+    margin: 0;
+    width: 32%;
+}
+    #logo{
+    width: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background-color: var(--cinzaclaro);
+    color: var(--verdeescuro);
+    text-align: right;
+    float: right;
 }
