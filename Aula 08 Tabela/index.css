@@ -1,0 +1,16 @@
+th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+/* .rodape{
+    border: none;
+} */
+td:nth-child(even), th:nth-child(even){
+    background-color: rgba(0, 128, 0, 0.527);
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(0, 128, 0, 0.527);
+}
