@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --azulescuro:#0D5188;
+    --azulmedio:#66C5E3;
+    --azulclaro:#C7E7F3;
+    --branco:white;
+    --prata:silver;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 600px;
+    background-color: var(--azulclaro);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-spacing: 2px;
+    padding: 2px;
+}
+#titulo{
+    color: var(--branco);
+    text-align: center;
+    background-color: #0D5188;
+}
+th{
+    background-color: var(--azulmedio);
+    font-weight: bold;
+    text-align: justify;
+}
+#num{
+    text-align: center;
+    background-color: var(--prata);
+    width: 10%;
+}
+#center{
+    text-align: center;
+}
+#cidade{
+    background-color:var(--azulclaro);
+    color: var(--azulescuro);
+    font-weight: bold; 
+}
+#pop{
+    text-align: center;
+    width: 15%;
+    background-color:var(--azulclaro)
+    
+}
