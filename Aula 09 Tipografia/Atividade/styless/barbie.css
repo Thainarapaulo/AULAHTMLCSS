@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'barbie';
+    src: url(../styless/Barbie.otf);
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-image:linear-gradient(#F24182, #F244A4, #EE05F2, #F27E7E);
+}
+#filmes{
+    width: 90%;
+    margin: 0px auto;
+    border: 2px solid #F24182;
+    border-radius: 10px;
+    padding: 20px;
+}
+.post{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0px;
+}
+.postImagem{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 20px;
+}
+.postImagem img{
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    border-radius: 20px;
+}
+
+.postTexto{
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-family: sans-serif;
+    text-indent: 10px;
+    text-align: justify;
+    word-spacing: 1.5px;
+    line-height: 35px;
+
+}
+.postTexto p{
+    margin: 0px 10px ;
+}
+h1{
+    font-family: barbie;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: barbie;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: barbie;
+}
+h3{
+    font-size: 20px;
+    font-family: barbie;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 10px;
+    word-spacing: 1.5px;
+    padding: 15px;
+    font-family: barbie;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    font-family: barbie;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(#F24182, #F244A4, #EE05F2, #F27E7E);
+
+}

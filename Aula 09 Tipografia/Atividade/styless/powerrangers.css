@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: rangers;
+    src: url(../styless/Power\ Rangers.ttf);
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(#8C0869, #8C4303, #730202,#0D4EB6);
+}
+p{
+    font-family:rangers;
+    padding: 20px 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 5px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+main{
+    width: 100vw;
+}
+#banner{
+    width: 80%;
+    height: 800px;
+    padding: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+ #banner img{
+    width: 100%;
+ }
+#link{
+    text-align: center;
+    padding: 20px 20px;
+}
+a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-weight: bold;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 5px 5px;
+    text-indent: 20px;
+    text-align: justify;
+    word-spacing: 1px;
+    line-height: 35px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+#assistir{
+    text-align: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline 2px;
+    text-decoration-color: yellow;
+}
+footer, h2{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(#8C0869, #8C4303, #730202,#0D4EB6);
+
+}
