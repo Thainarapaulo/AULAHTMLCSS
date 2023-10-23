@@ -27,7 +27,7 @@ main{
     width: 100vw;
 }
 #banner{
-    width: 80%;
+    width: 60%;
     height: 800px;
     padding: 20px;
     overflow: hidden;
@@ -35,6 +35,7 @@ main{
 }
  #banner img{
     width: 100%;
+    border-radius: 20px;
  }
 #link{
     text-align: center;
@@ -50,13 +51,14 @@ a{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    width: 100%;
     margin: 5px 5px;
     text-indent: 20px;
     text-align: justify;
     word-spacing: 1px;
     line-height: 35px;
     font-size: 20px;
-    padding: 20px 0;
+    
 }
 #assistir{
     text-align: center;
@@ -64,6 +66,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline 2px;
     text-decoration-color: yellow;
+    padding-top: 80px;
 }
 footer, h2{
     width: 100%;
