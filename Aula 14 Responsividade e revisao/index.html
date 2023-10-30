@@ -1,0 +1,75 @@
+<!-- Anotcação -->
+<!-- keyframe -->
+<!-- responsividade -->
+<!-- drop down -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="../Aula 14 Responsividade e revisao/styles/index.css">
+    <link rel="shortcut icon" href="../Aula 14 Responsividade e revisao/images/mulherdancandoMenor.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../Aula 14 Responsividade e revisao/styles/@Media.css" media="screen and (max-width:768px)">
+</head>
+<body>
+    <div id="page">
+        <header>
+            <!-- Header -->
+            <div id="logo">
+                <img class="imagem" src="../Aula 14 Responsividade e revisao/images/mulherdancando.jpg" alt="">
+            </div>
+            <nav id="menuPc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Mulheres</a></li>
+                    <li><a href="#">Curiosidades</a></li>
+                    <li><a href="#">Época</a></li>
+                </ul>
+            </nav>
+            <!-- mobile -->
+            <div id="menuIcon" onclick="dropdown()">
+                <img class="imagem" src="../Aula 14 Responsividade e revisao/images/menuIcon.svg" alt="">
+            </div>
+        </header>
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre Mulheres</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Época</a></li>
+            </ul>
+        </nav>
+        <!-- Main -->
+        <main>
+            <section id="banner" class="backgroundImg"></section>
+            <section id="sobreSection">
+                <h1>Mulheres 2023</h1>
+                <img class="imagem" src="../Aula 14 Responsividade e revisao/images/mulherdancando.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda neque harum eos voluptates, laudantium consectetur provident iste ipsa voluptatibus quibusdam aperiam nulla, autem dignissimos, facilis aliquid. Vitae quos perferendis reprehenderit?</p>
+            </section>
+            <section id="curiosidadeSection"></section>
+            <section id="epocaSection"></section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p>Todos os direitos reservados a @Thainarapaulo</p>
+        </footer>
+    </div>
+    <script>
+        function dropdown(){
+            if(menuMobile.style.display =="flex"){
+                menuMobile.style.display = "none";
+
+            }else{
+                menuMobile.style.display = "flex"
+            }
+            // se menuMobile aparecido
+            //    menuMobile sumido
+            // senao
+            //    menuMobile sumido
+        }
+    </script>
+</body>
+</html>

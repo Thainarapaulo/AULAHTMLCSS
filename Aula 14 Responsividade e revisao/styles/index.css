@@ -1,0 +1,107 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@media screen and (max-width:768px){
+     body{
+         width: 100%;
+         height: 200px;
+     }
+}
+@font-face {
+    font-family: "dreams";
+    src: url(../fonts/dreams.ttf);
+}
+.backgroundImg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"dreams";
+    color: var(--titulos);
+}
+h1{
+    font-size: 35pt;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --cor-fundo: hsl(0, 11%, 74%);
+    --cor-primaria:rgb(111, 186, 199);
+    --links:blue;
+    --titulos:black;
+}
+header,footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: var(--cor-primaria);
+}
+.imagem{
+    width: 100%;
+}
+#page{
+    width: 100%;
+    background-color: var(--cor-fundo);
+}
+a{
+    text-decoration: none;
+    color: var(--links);
+}
+/* Header */
+nav ul{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+#logo{
+    width: 200px;
+}
+#menuIcon{
+    display: none;
+}
+#menuMobile{
+    display: none;
+}
+/* Main */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#banner{
+    width: 90%;
+    height: 400px;
+    margin: 20px 0px;
+    background-image: url(../images/mulherdancando.jpg);
+}
+#sobreSection{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    background-color:white;
+}
+@media screen and (max-width:768px){
+    #banner{
+        width: 100%;
+        height: 200px;
+    }
+}
+/* Serve somente no print
+@media print {
+    body{
+        color: blueviolet;
+    }
+    
+} */
