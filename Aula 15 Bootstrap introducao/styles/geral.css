@@ -1,0 +1,9 @@
+/* !important prioriza o elemento em si  */
+/* Versões antigas prioridade é de quem e decladorado em baixo, ou por ultimo */
+#page{
+    background-color: black!important; 
+}
+.carousel-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(218, 202, 202, 0.315);
+}
