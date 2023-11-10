@@ -86,7 +86,7 @@
             <section id="catalogo" class="container-fluid p-0 my-1 mx-0">
                 <h3 class="my-4 text-center" style="color: var(--laranja);">CATÁLOGO DE PRODUTOS</h3>
                 <div id="catalogoProdutos" class="container-fluid d-flex justify-content-center gap-4">
-
+                   <!-- COLEIRA -->
                     <div class="card p-2 text-center" style="width: 20rem;border-radius: 0%;">
                         <img style="border-radius: 0%;" src="../Aula 16 PawShop/images/productImage.png" class="card-img-top" alt="Um cachorro usando coleira">
                         <div class="card-body">
@@ -105,7 +105,7 @@
                           <h4 class="card-title" style="color: var(--laranja);">COMIDA</h4>
                           <p class="card-text">Ofereça ao seu cão a nutrição de que ele precisa com a nossa seleção de alimentos premium. Nossas opções de comida são formuladas com ingredientes de alta qualidade, proporcionando uma dieta equilibrada e saborosa. Temos uma variedade de rações secas, úmidas e até mesmo opções naturais e orgânicas para atender às necessidades alimentares do seu pet. Cuide da saúde do seu cão com o melhor em nutrição, garantindo que ele se sinta energizado e feliz todos os dias.</p>
                            <h5 class="card-text" style="color: var(--verde);"> R$100 </h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coleiraModal">
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#comidaModal">
                            VER MAIS
                           </button>                            
                         </div>
@@ -117,7 +117,7 @@
                           <h4 class="card-title" style="color: var(--laranja);">DISCO DE BRINQUEDO</h4>
                           <p class="card-text">Mantenha seu cão entretido e ativo com nosso disco de brinquedo, projetado para horas de diversão ao ar livre. Feito de materiais seguros e duráveis, o disco é perfeito para jogos de busca e interação com o seu cão. Seu design aerodinâmico permite lançamentos precisos, proporcionando ao seu peludo momentos de alegria e exercício. Leve-o para o parque ou o quintal e desfrute de momentos emocionantes e saudáveis com seu cão, fortalecendo ainda mais a conexão entre vocês.</p>
                            <h5 class="card-text" style="color: var(--verde);"> R$100 </h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coleiraModal">
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#discodeBrinquedoModal">
                            VER MAIS
                           </button>                            
                         </div>
@@ -129,7 +129,7 @@
                           <h4 class="card-title" style="color: var(--laranja);">CASINHA</h4>
                           <p class="card-text">Nossa casinha para cães é um verdadeiro lar dentro de casa. Feita com materiais duráveis e resistentes às intempéries, ela oferece um refúgio seguro e aconchegante para o seu pet. Com um design espaçoso e confortável, a casinha é o local perfeito para seu cão descansar, se abrigar do sol ou da chuva, e relaxar com todo o conforto que merece. Garanta que seu melhor amigo tenha um lugar aconchegante para chamar de seu com a nossa casinha de qualidade.</p>
                            <h5 class="card-text" style="color: var(--verde);"> R$100 </h5>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coleiraModal">
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#casinhaModal">
                            VER MAIS
                           </button>                            
                         </div>
@@ -147,20 +147,81 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+              <h5 class="modal-title" style="color: var(--laranja);">COLEIRA</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>Modal body text goes here.</p>
+                <img class="w-100" src="../Aula 16 PawShop/images/productImage.png" alt="">
+              <p>Coleira Peitoral verde.</p>
+              <h3 style="color: var(--verde);"> R$100</h3>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-success">Adicionar no carrinho</button>
             </div>
           </div>
         </div>
       </div>
-
+       <!-- MODAL COMIDA -->
+    <div class="modal" tabindex="-1" id="comidaModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color: var(--laranja);">COMIDA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="w-100" src="../Aula 16 PawShop/images/productImage2.png" alt="">
+              <p>Rações de qualidade.</p>
+              <h3 style="color: var(--verde);"> R$120</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- MODAL DISCO DE BRINQUEDO -->
+    <div class="modal" tabindex="-1" id="discodeBrinquedoModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" style="color: var(--laranja);">DISCO DE BRINQUEDO</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="w-100" src="../Aula 16 PawShop/images/productImage3.png" alt="">
+              <p>Brinquedo em disco.</p>
+              <h3 style="color: var(--verde);"> R$35,00</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ <!-- MODAL CASINHA -->
+ <div class="modal" tabindex="-1" id="casinhaModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="color: var(--laranja);">CASINHA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="w-100" src="../Aula 16 PawShop/images/productImage4.png" alt="">
+          <p>Casinha de madeira.</p>
+          <h3 style="color: var(--verde);"> R$200</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
