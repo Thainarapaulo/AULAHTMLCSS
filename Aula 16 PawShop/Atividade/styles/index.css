@@ -12,3 +12,6 @@ header,footer{
 .card-img-overlay{
     border-radius: 0%;
 }
+.titulo{
+    border-spacing: 5px;
+}
