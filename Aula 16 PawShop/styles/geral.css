@@ -22,3 +22,17 @@ header,footer{
     background-color: #bb5f87;
     
 }
+input{
+    border: 1px solid black !important;
+}
+aside{
+    width: 50%;
+}
+@media screen and (max-width:1050px){
+    #formularioGrupo{
+        flex-direction: column;
+    }
+    #formularioGrupo aside{
+        width: 100%;
+    }
+}
