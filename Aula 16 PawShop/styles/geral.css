@@ -28,6 +28,9 @@ input{
 aside{
     width: 50%;
 }
+#temaAtualEscuro{
+    display: none;
+}
 @media screen and (max-width:1050px){
     #formularioGrupo{
         flex-direction: column;
