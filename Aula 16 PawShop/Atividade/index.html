@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="../Atividade/images/logoBlack.svg" type="image/x-icon">
     <link rel="stylesheet" href="../Atividade/styles/index.css">
 </head>
-<body>
+<body style="background-color: aliceblue;">
     <div id="root" class="container-fluid p-0 m-0">
 <header>
     <nav class="navbar navbar-expand-md">
@@ -18,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse"  id="navbarNav">
-            <ul class="navbar-nav py-3">
+            <ul class="navbar-nav py-2">
               <li class="nav-item">
                 <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
               </li>
@@ -71,41 +71,55 @@
       <h5 style="padding-left: 2%;">Contrate nossos serviços</h5>
       <div class="container-fluid d-flex justify-content-between">
         <p class="introServico align-justify w-50 lh1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorem soluta explicabo similique veritatis eius nostrum magni aperiam animi fugiat ipsum doloribus, esse accusamus corrupti iste molestiae velit provident reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequatur distinctio sapiente laboriosam soluta sit saepe molestias odio tempora natus deleniti sequi laborum quia, aliquid similique debitis temporibus illo optio?</p>
-        <img class=" beneficios rounded pr-0" style="width: 800px; height: 400px;" src="../Atividade/images/bannerBeneficios.jpg" alt="">
+        <img class=" beneficios rounded pr-0" style="width: 500px; height: 300px;" src="../Atividade/images/bannerBeneficios.jpg" alt="">
       </div>    
       </section>
     </section>
-    <h3 class=" cliente text-center fw-bold py-4" style="padding-top: 2%;" >SEJA CLIENTE DE DIVERSAS MANEIRAS!</h3>
-    <section class="cartao d-flex justify-content-center align-items-center gap-5">
+    <h3 class=" cliente text-center fw-bold" style="padding-top: 2%;" >SEJA CLIENTE DE DIVERSAS MANEIRAS!</h3>
+    <section class="cartao py-5">
+        <div class=" CartaoDeCredito d-flex justify-content-center align-items-center gap-5">
             <img src="../Atividade/images/cartaoUm.jpg" class="w-25 h-25 rounded" alt="">
-            <img src="../Atividade/images/cartaoDois.jpg" style="height: 692px;" class="w-25 rounded" alt="">
+            <img src="../Atividade/images/cartaoDois.jpg" style="height: 505px;" class="w-25 rounded" alt="">
             <img src="../Atividade/images/cartaoTres.jpg" class="w-25 h-25 rounded" alt="">
-    
+        </div>
     </section>
-    <table class="tabela container-fluid d-flex justify-content-center py-5 align-items-center" style="color: white;">
-      <tr class="titulo" style="background-color: var(--vermelho);">
-        <th></th>
-        <th>SEGUNDA</th>
-        <th>TERÇA</th>
-        <th>QUARTA</th>
-        <th>QUINTA</th>
-        <th>SEXTA</th>
+    <section class="fundo d-flex flex-column align-items-center justify-content-center mx-auto m-5" style="background-color: white; box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.452); border-radius: 5px; padding: 3%; width: 80%;">
+      <h5 id="introHorarios" class="text-center fw-bolder mb-4">Horários de atendimento</h5>
+    <table class="container mx-auto w-75">   
+      <tr>
+       <th id="semcor"></th>
+       <th>SEGUNDA</th>
+       <th>TERÇA</th>
+       <th>QUARTA</th>
+       <th>QUINTA</th>
+       <th>SEXTA</th>
       </tr>
       <tr>
-      <th  class="titulo2" style="background-color: var(--vermelho);">Marcelo</th>
-      <td style="color: black;">09:00 até <br> as 13:00</td>
-
+          <th>Marcelo</th>
+          <td>09:00 até as <br>13:00</td>
+          <td>08:00 até as <br>12:00</td>
+          <td>09:00 até as <br>14:00</td>
+          <td>09:00 até as <br>12:00</td>
+          <td>09:00 até as <br>12:00</td>
       </tr>
       <tr>
-        <th  class="titulo3" style="background-color: var(--vermelho);">Daniela</th>
-        <td style="color: black;">08:00 até <br> as 12:00</td>
-
+          <th>Daniela</th>
+          <td>09:00 até as <br>13:00</td>
+          <td>08:00 até as <br>12:00</td>
+          <td>09:00 até as <br>14:00</td>
+          <td>09:00 até as <br>12:00</td>
+          <td>09:00 até as <br>12:00</td>
       </tr>
       <tr>
-        <th class="titulo4" style="background-color: var(--vermelho);">João</th>
-        <td style="color: black;">09:00 até <br> as 14:00</td>
+          <th>João</th>
+          <td>09:00 até as <br>13:00</td>
+          <td>08:00 até as <br>12:00</td>
+          <td>09:00 até as <br>14:00</td>
+          <td>09:00 até as <br>12:00</td>
+          <td>09:00 até as <br>12:00</td>
       </tr>
-    </table>
+  </table>
+</section>
 </main>
 <footer class="text-center py-3">
     <h5>Todos os direitos reservados a Bank 90!</h5>
